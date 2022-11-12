@@ -221,6 +221,10 @@
          <button on:click={ ()=> {pag++;conexionAPI()} } class='cursor-pointer rounded bg-slate-300 w-28 h-10 flex items-center justify-center hover:text-slate-50 hover:bg-[#F75C03] transition-[background,color] duration-500' disabled={false}>NEXT</button>
       </div>
    </div>
+   <div class='pl-20 w-full bg-[#0F1B33] flex flex-col items-center justify-center py-20'>
+      <p class='font-bold text-lg text-zinc-50'>Esta prueba es patrocinada por la API de TheMovieDB!</p>
+      <img class='w-40 h-40' src="{logo}" alt='logo patrocinador'>
+   </div>
 </div>
 
 <style>
