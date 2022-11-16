@@ -16,7 +16,13 @@
       const result = await dataAPI.json()
       film = JSON.stringify(result.results)
    }*/
-
+   setInterval(()=>{
+      if(index === 20){
+         index = 0
+      } else {
+         index++
+      }
+   },5000)
 </script>
 <div class='relative w-full bg-[#032541] overflow-hidden'>
    <MenuPrincipal/>
