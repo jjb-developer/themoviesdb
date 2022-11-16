@@ -18,7 +18,7 @@
    }*/
 
 </script>
-<div class='relative w-full bg-[#032541] overflow-hidden'>
+<div class='relative w-screen bg-[#032541] overflow-hidden'>
    <MenuPrincipal/>
    <Header movie={preview}/>
    <Slider title={"acción"} movies={movies.action}/>
