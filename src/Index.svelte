@@ -28,7 +28,7 @@
    <Slider title={"historía"} movies={movies.history}/>
    <Slider title={"documentales"} movies={movies.documentary}/>
    <div class='w-full h-40 flex items-center justify-center border-t border-[#F75C03]'>
-      <img class='h-5' src='https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg' alt='logo'>
+      <img class='h-7' src='https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg' alt='logo'>
    </div>
    <div class='w-full h-12'></div>
 </div>
