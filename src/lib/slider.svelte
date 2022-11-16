@@ -3,7 +3,7 @@
    export let title;
 </script>
 
-<div class='flex w-[inherit] flex-col gap-y-2 px-5 pb-5'>
+<div class='flex w-[95%] flex-col gap-y-2 px-5 pb-5'>
    <div class='flex gap-x-2 items-center'>
       <i class='bx bx-film text-2xl text-[#F75C03]'></i>
       <h1 class='font-bold text-zinc-50 text-lg capitalize'>Películas de {title}</h1>
