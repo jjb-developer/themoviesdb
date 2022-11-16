@@ -4,11 +4,11 @@
    import Header from './lib/header.svelte'
 
    import json from './datafilm.json'
-   let index = 4
+   let index = 0
    let title = "Hello World"
    let movies = json.data
    const backdropMovie = "https://image.tmdb.org/t/p/w200/"
-   let preview = movies.action[index]
+   $: preview = movies.action[index]
    
    /*let film;
    async function conexionAPI(){
@@ -17,12 +17,11 @@
       film = JSON.stringify(result.results)
    }*/
    setInterval(()=>{
+      index++
       if(index === 20){
          index = 0
-      } else {
-         index++
       }
-   },5000)
+   },60000)
 </script>
 <div class='relative w-full bg-[#032541] overflow-hidden'>
    <MenuPrincipal/>

@@ -9,7 +9,7 @@
    <span class='hover:scale-[1.7] cursor-pointer duration-500 origin-center { menu ? '':'scale-y-0'}'>Inicio</span>
    <span class='hover:scale-[1.7] cursor-pointer duration-500 origin-center { menu ? '':'scale-y-0'}'>Series</span>
    <span class='hover:scale-[1.7] cursor-pointer duration-500 origin-center { menu ? '':'scale-y-0'}'>Películas</span>
-   <i on:click={ ()=> menu = false } class='cursor-pointer fixed bottom-24 text-5xl bx bxs-x-circle origin-center duration-200 { menu ? 'delay-700':'scale-0'}'></i>
+   <i on:click={ ()=> menu = false } class='cursor-pointer fixed bottom-32 text-5xl bx bxs-x-circle origin-center duration-200 { menu ? 'delay-700':'scale-0'}'></i>
 </div>
 
 <div class='fixed z-[9998] bottom-0 left-0 w-full h-12 bg-[#F75C03] text-zinc-50'>
