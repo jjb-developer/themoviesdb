@@ -3,8 +3,8 @@
    export let title;
 </script>
 
-<div class='flex w-[95%] flex-col gap-y-2 px-5 pb-5'>
-   <div class='flex gap-x-2 items-center'>
+<div class='flex w-full flex-col gap-y-2 pb-5'>
+   <div class='flex gap-x-2 items-center pl-4'>
       <i class='bx bx-film text-2xl text-[#F75C03]'></i>
       <h1 class='font-bold text-zinc-50 text-lg capitalize'>Películas de {title}</h1>
    </div>
