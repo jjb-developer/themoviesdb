@@ -2,13 +2,23 @@
 
    import Menulateral from './lib/menuLateral.svelte'
    import { fly } from 'svelte/transition'
-   import json from './filmaccion.json'
+   import json from './datafilm.json'
 
    const logo = 'https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_1-5bdc75aaebeb75dc7ae79426ddd9be3b2be1e342510f8202baf6bffa71d7f5c4.svg'
 
    const apiImage = "https://image.tmdb.org/t/p/w200/"
    const apiImageBackdrop = "https://image.tmdb.org/t/p/w200/"
 
+   /*
+   async function conexionAPI(){
+      const dataAPI = await fetch('https://api.themoviedb.org/3/discover/movie?&with_genres=28')
+      const result = await infoAPI.json()
+      film = result
+   }
+
+   let film = []
+   */
+   
    let modal = false
    let pag = 1
    let data = json.data
